@@ -1,4 +1,4 @@
-# Svelte3 + TailwindCSS Project Template
+# Svelte3 + Tailwindcss Project Template
 
 ## Usage
 
