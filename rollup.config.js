@@ -9,9 +9,10 @@ const production = process.env.NODE_ENV === 'production'
 export default {
   input: 'src/main.js',
   output: {
-    file: 'public/bundle.js',
+    sourcemap: true,
     format: 'iife',
-    compact: true,
+    name: 'app',
+    file: 'public/bundle.js',
   },
   plugins: [
     resolve({
