@@ -1,13 +1,15 @@
 <script>
-  // eslint-disable-next-line no-unused-vars
-  import Tailwind from './Tailwindcss.svelte'
+  import Tailwindcss from './Tailwindcss.svelte'
   let name = 'Svelte'
 </script>
 
 <style>
   h1 {
-    @apply text-4xl text-orange-800 text-center;
+    @apply text-5xl text-orange-700 text-center;
   }
 </style>
 
-<h1>Hello {name}</h1>
+<Tailwindcss />
+<main>
+  <h1 class="uppercase font-thin">Hello {name}</h1>
+</main>
