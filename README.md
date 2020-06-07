@@ -23,8 +23,11 @@ npm run dev
 | Minify Bundle     | `rollup-plugin-terser`     |
 | TailwindCSS       | `tailwindcss`              |
 |                   | `postcss`                  |
-|                   | `postcss-import`           |
 |                   | `postcss-load-config`      |
 |                   | `svelte-preprocess`        |
 |                   | `autoprefixer`             |
 |                   | `@fullman/postcss-purgess` |
+
+## Reference
+
+- [DEV: Using Svelte with Tailwindcss - A Better approach (2020-01-27)](https://dev.to/sarioglu/using-svelte-with-tailwindcss-a-better-approach-47ph)
