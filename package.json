@@ -12,7 +12,8 @@
     "fix": "npx eslint --fix \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
     "format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
     "dev": "run-p start:dev build:dev",
-    "prd": "run-s build start"
+    "prd": "run-s build start",
+    "clean": "rm -f public/*.js public/*.css public/*.map"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.2.0",
